@@ -35,7 +35,7 @@ def get_subdomain_count(url: str) -> int:
     except:
         return 0
 
-# Vô hiệu hóa WHOIS như đã thống nhất
+# Vô hiệu hóa WHOIS
 def get_domain_age_days(url: str) -> int:
     return -1
 
